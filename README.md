@@ -1,7 +1,7 @@
 # JsonC11
 
 ## 编码示例
-''' c++
+``` c++
 static string pingResult(InfoPtr & info)
 		{
 			json11::Json tm1 =
@@ -48,10 +48,10 @@ static string pingResult(InfoPtr & info)
 
 			return res.dump();
 		}
-    '''
+   ```
     
     ## 解码示例
-    ''' c++
+  ``` c++
     static InfoPtr parseCurl(string & strJson)
 		{
 			string err;
@@ -82,5 +82,5 @@ static string pingResult(InfoPtr & info)
 			info->type = TaskType::CURL;
 			return info;
 		}
-    '''
+  ```
     
